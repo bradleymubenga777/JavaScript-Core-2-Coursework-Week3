@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Slideshow</title>
-    <script src="slideshow.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -12,6 +11,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Write your HTML in here -->
+
+    <div class="imageBox">
+      <img class="responsiveImage" id="slideImage" />
+    </div>
+
+    <div class="buttons">
+      <button id="backwardButton">Backward</button>
+      <button id="forwardButton">Forward</button>
+    </div>
   </body>
+  <script src="slideshow.js"></script>
 </html>
